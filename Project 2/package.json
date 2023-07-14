@@ -1,0 +1,22 @@
+{
+  "name": "three-js-final",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.11.5",
+    "stats": "^1.0.0",
+    "three": "^0.151.2"
+  }
+}
