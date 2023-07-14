@@ -40,7 +40,7 @@ const pointLight = new THREE.PointLight(0xffffff, 1, 100);
 pointLight.position.set(0, 10, 5);
 
 const pointLightHelper = new THREE.PointLightHelper(pointLight);
-scene.add(pointLightHelper);
+// scene.add(pointLightHelper);
 
 scene.add(pointLight);
 

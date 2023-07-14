@@ -157,7 +157,7 @@ const playerBody = new CANNON.Body({
 playerBody.collisionResponse = true;
 playerBody.linearDamping = 0.1;
 playerBody.quaternion.setFromEuler(0, 0, 0);
-playerBody.position.set(10, 5, 12);
+playerBody.position.set(0, 5, 12);
 
 world.addBody(playerBody);
 
@@ -645,7 +645,6 @@ const projectViewsAnimation = () => {
   if (!ran) {
     ran = true;
 
-    console.log("sks");
     const loading = projectsDom.getElementsByClassName("loading")[0];
 
     const duration = parseFloat(
@@ -659,7 +658,7 @@ const projectViewsAnimation = () => {
 
     setTimeout(() => {
       welcomingAnimation();
-    }, duration * 1000);
+    }, 1000);
 
     let counter = 0;
     const welcomingAnimation = () => {
